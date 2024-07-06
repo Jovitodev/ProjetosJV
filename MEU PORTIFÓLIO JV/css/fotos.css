@@ -1,0 +1,27 @@
+#sobre {
+    margin-top: 100px;
+    position: center;
+    display: flex;
+
+}
+img{
+    animation: float 5s  infinite;
+    width: 90%;
+    height: 250px; 
+    margin: 0 15px;
+    
+}
+
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }50%{
+        transform: translateY(-10px);
+
+    }100%{
+        transform: translateY(0px);
+
+    }
+    
+}

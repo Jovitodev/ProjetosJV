@@ -1,0 +1,32 @@
+@import url(cores.css);
+#menu {
+    background-image: linear-gradient(to right, var(--verde1), var(--verdemusgo), var(--marrom1), var(--verde2));
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    backdrop-filter: blur(2px);
+}
+
+#info {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+#menu>nav li {
+    display: inline-block;
+    margin: 1px 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-image: linear-gradient(to bottom, var(--verde1), var(--verdemusgo));
+    border-radius: 15px;
+    transition: 0.8s;
+}

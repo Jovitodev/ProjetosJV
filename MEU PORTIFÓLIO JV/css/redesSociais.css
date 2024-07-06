@@ -1,0 +1,36 @@
+#Contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    /* background-image: linear-gradient(to right, black); */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    backdrop-filter: blur(2px);
+}
+
+#list{
+    list-style-type:none;
+    display: flex;
+    gap: 2em;
+}
+#list a{
+    text-decoration: none;
+    color: var(--darkslategrey);
+}
+#instagram{
+    width: 15%;
+    height: 30px; 
+    margin: 0 15px;
+}
+#linkedin{
+    width: 15%;
+    height: 30px; 
+    margin: 0 15px;
+}
+#github{
+    width: 15%;
+    height: 30px; 
+    margin: 0 15px;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: estilo;
+    src: url(font/PixelifySans-VariableFont_wght.ttf);
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#corpo{
+    color: aliceblue;
+    transition: 1s;
+    font-family: estilo;
+    text-align: center;
+    background-color: black;
+}
+button{
+    font-family: estilo;
+    font-size: large;
+}

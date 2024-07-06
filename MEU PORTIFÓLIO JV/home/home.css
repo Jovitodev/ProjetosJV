@@ -1,0 +1,23 @@
+@import url(../css/body.css);
+
+@import url(../css/contato.css);
+
+@import url(../css/cores.css);
+
+@import url(../css/footer.css);
+
+@import url(../css/sobremim.css);
+
+@import url(../css/menu.css);
+
+@import url(../css/projetos.css);
+
+@import url(../css/redesSociais.css);
+
+@import url(../css/fotos.css);
+
+html{
+    scroll-behavior: smooth;
+}
+
+

@@ -1,0 +1,10 @@
+#rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #51B072, #50705B, #463D3D, #50705B);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    backdrop-filter: blur(2px);
+}
